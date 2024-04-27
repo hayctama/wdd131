@@ -110,11 +110,14 @@ h3 {
     margin: 15px;
     height: 500px;
 }
-
+.sources a {
+    color: black;
+}
 footer {
     text-align: center;
     margin-top: 80px;
     padding-top: 60px;
     height: 80px;
-    background-color: #a59b86
+    background-color: #a59b86;
+    color: white;
 }
