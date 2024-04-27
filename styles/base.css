@@ -42,8 +42,9 @@ header {
     text-align: center;
 }
 main {
-    background-color: #fbf4ec;
+    background-color: white;
     height: 600px;
+    width: 90%;
     display: grid;
     grid-template-columns: repeat(14, 1fr);
     grid-template-rows: repeat(11, 1fr);
@@ -111,6 +112,8 @@ h3 {
 
 footer {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 80px;
+    padding-top: 60px;
     height: 80px;
+    background-color: #a59b86
 }
