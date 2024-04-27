@@ -122,6 +122,55 @@ footer {
     margin-top: 80px;
     padding-top: 60px;
     height: 80px;
-    background-color: #a59b86;
+    background-color: #353632;
     color: white;
 }
+
+
+
+
+
+
+
+
+  /* Media Queries */
+  @media screen and (min-width: 525px) {
+  
+    nav {
+      display: flex;
+      gap: 1rem;
+    }
+  
+    nav a:first-child {
+      display: none;
+    }
+  
+    nav a:not(:first-child) {
+      display: block;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .header-h1 {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+    }
+  
+    .card-info {
+      display: flex;
+      flex-direction: row-reverse;
+      gap: 1rem;
+    }
+  
+    .card-country img {
+      aspect-ratio: 5/1;
+      object-fit: cover;
+    }
+  }
+  
+  @media screen and (min-width: 960px) {
+    main {
+      grid-template-columns: 2fr 1fr;
+    }
+  }
