@@ -42,7 +42,7 @@ header {
     text-align: center;
 }
 
-.card {
+.card-1 {
     height: 600px;
     display: grid;
     grid-template-columns: repeat(14, 1fr);
