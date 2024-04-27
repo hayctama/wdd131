@@ -43,7 +43,6 @@ header {
 }
 main {
     background-color: #fbf4ec;
-    width: 99%;
     height: 600px;
     display: grid;
     grid-template-columns: repeat(14, 1fr);
