@@ -35,6 +35,9 @@ body {
     margin: 0;
     padding: 0;
   }
+main {
+    max-width: 1800px;
+}
 header {
     color: #fbf4ec;
     background-color: #353632;
