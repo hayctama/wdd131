@@ -41,11 +41,7 @@ header {
     padding-top: 5px;
     text-align: center;
 }
-main {
-    background-color: white;
-    z-index: -1;
-    gap: 1rem;
-}
+
 .card {
     height: 600px;
     display: grid;
