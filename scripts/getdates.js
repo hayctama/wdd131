@@ -1,15 +1,22 @@
-// Year
-let year = new Date();
-currentYear.innerHTML = year.getFullYear();
+const year = document.getElementById("year");
+const today = new Date();
+const currentYear = today.getFullYear();
+year.textContent = currentYear;
 
-// Last modified
-updated.innerHTML = document.lastModified;
+const lastModified = document.getElementById("lastModified");
+const LastModifiedDate = new Date(document.lastModified);
 
-// const currentYear = document.getElementById('currentyear');
-// currentYear.textContent = new Date().getFullYear();
+const options = {
+  year: "numeric",
+  month: "numeric",
+  day: "numeric",
+  hour: "numeric",
+  minute: "numeric",
+  second: "numeric",
+};
+const formattedDate = LastModifiedDate.toLocaleDateString(undefined, options);
+
+lastModified.textContent = `Last Modification: ${formattedDate}`;
+lastModified.style.color = "black";
 
 
-// const lastModified = document.getElementById('lastModified');
-// lastModified.textContent = `Last modification: ${document.lastModified}`;
-
-let currentYear = document.querySelector(".currentYear");
