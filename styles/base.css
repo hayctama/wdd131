@@ -28,15 +28,66 @@ nav a:link, nav a:visited {
   }
 
 
-body {
-    background-color: #fbf4ec; 
+body { 
     color: #353632;
     font-family: 'Raleway', 'Arial', sans-serif;
     font-size: 15px;
     margin: 0;
     padding: 0;
   }
-
+header {
+    color: #fbf4ec;
+    background-color: #353632;
+    padding-top: 5px;
+    text-align: center;
+}
 main {
+    background-color: #fbf4ec;
     width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    z-index: -1;
+}
+.card {
+    height: 400px;
+}
+.aboutmecontainer {
+    background-color: #E1D6C9;
+    border: 1px solid black;
+    border-radius: 1em;
+    grid-column: 2/10;
+    grid-row: 1/11;
+    margin: 15px;
+    height: 350px;
+}
+.aboutmecontainer p {
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+.bryn-img {
+    width: 30%;
+    grid-column: 5/6;
+    grid-row: 1/2;
+    margin-left: 50px;
+}
+.card-img {
+    width: 60%;
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+.resourcecontainer {
+    background-color: #E1D6C9;
+    border: 1px solid black;
+    border-radius: 1em;
+    grid-column: 10/14;
+    grid-row: 1/11;
+    margin: 15px;
+    height: 350px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
 }
