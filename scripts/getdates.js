@@ -19,4 +19,3 @@ const formattedDate = LastModifiedDate.toLocaleDateString(undefined, options);
 lastModified.textContent = `Last Modification: ${formattedDate}`;
 lastModified.style.color = "white";
 
-

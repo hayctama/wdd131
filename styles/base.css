@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap'); 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+  
 
 nav a {
     text-align: center;
@@ -13,7 +13,8 @@ nav a {
 nav {
     background-color: #e3e2e2;
     color: #2a2725;
-    font-family: 'Raleway', 'Arial', sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
     text-align: center;
     list-style-type: none;
     display: flex;
@@ -30,7 +31,8 @@ nav a:link, nav a:visited {
 
 body { 
     color: #353632;
-    font-family: 'Raleway', 'Arial', sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
     font-size: 15px;
     margin: 0;
     padding: 0;
